@@ -1,0 +1,64 @@
+@font-face{
+    font-family:shoes_center;
+    src:url('shoes_center-webfont.woff')
+}
+h1 {font-size:48px;}
+h2 {font-size:30px;}
+h1,h2{color:red}
+#inicio {background-image:url(collage.jpg);
+    border-bottom: ridge green;
+    font-family:shoes_center;
+    font-size: 37px;
+    text-decoration: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+    align-items:center;
+	text-align: center;
+}
+#apresentacao {background-image: url(gamer.jpg);
+    border-bottom: ridge green;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+#link{text-decoration: none;
+    color: blue;
+    text-shadow: 00px 8px 6px white;
+    padding: 20px;
+}
+#nome{color: blue;
+    text-shadow: 00px 8px 6px white;}
+#sobre{background-image:url(gamer2.jpg);
+    border-bottom: ridge green;
+    font-family:shoes_center;
+    font-size: 40px;
+    text-decoration: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+    align-items:center;
+	text-align: center;
+	padding: 10px;
+}
+#sobre2{
+    text-align: left;
+}
+#imagem1{
+    padding: 10px 50px 10px 10px;
+    max-width: 350px;
+}
+#contato{
+    font-family: shoes_center;
+    font-size: 30px;
+    text-align: center;
+}
