@@ -32,13 +32,17 @@ h1,h2{color:red}
 	padding: 50px;
 }
 #link{text-decoration: none;
-    color: blue;
+    color: red;
     text-shadow: 00px 8px 6px white;
     padding: 20px;
 }
-#nome{color: blue;
-    text-shadow: 00px 8px 6px white;}
+#nome{color:cyan;
+    text-shadow: 00px 8px 6px black;}
 #sobre{background-image:url(gamer2.jpg);
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
     border-bottom: ridge green;
     font-family:shoes_center;
     font-size: 40px;
@@ -53,15 +57,18 @@ h1,h2{color:red}
 	padding: 10px;
 }
 #sobre2{
-    text-align: left;
+    text-align: center;
 }
 #imagem1{
     max-height: 200px;
-    max-width: 300px;
+    max-width: 400px;
     padding-right: 2%
 }
 #contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(darkcyan, deepskyblue);
     font-family: shoes_center;
     font-size: 130%;
-    text-align: center;
 }
