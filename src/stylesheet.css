@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #0d88ca;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #0d88ca;
+    padding: 10px;
+}
+h2{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 11pt;
+    padding: 10px;
+    margin: 0; 
+}
+h3{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 10pt;
+    padding: 10px;
+    margin: 0; 
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.img-circulo {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.universal {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("../src/background.jpeg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #0d88ca;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.frase {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+#contato img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contato a {
+    text-decoration: none;
+}
+#contato img:hover {
+    opacity: 0.8;
+}
+#contato {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+.programa{
+    display: block;
+    margin: 0 auto;
+}
